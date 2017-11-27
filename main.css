@@ -1,0 +1,447 @@
+body {
+margin:0;
+}
+@media only screen and (min-width: 1100px) {
+    body {
+        margin:0;
+    }
+    #hoi1{
+        width:800px;
+        position:relative;
+        margin:0 auto;
+        
+    }
+    #hoi{
+        font-weight: bold;
+        font-size:125px; 
+        color:white; 
+        font-family: roboto; 
+        width:auto;
+        position:absolute;
+        text-align:center;
+        padding:15px;
+        margin-top:15%;
+        
+        
+    }
+    h2{
+        text-align: center;
+        font-family: roboto;
+        float:left;
+        font-size:18px;
+    }
+    #header {
+        position:relative;
+    }
+
+    #bannerimg{
+        width:100%;
+        box-shadow: 0 4px 5px 1px black;
+    }
+    #formomtrek {
+        width:650px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    #buttonfull{
+        width:100%;
+        height:60px;
+        background-color:#122f35;
+    }
+    #button{
+        display:block;
+        float:right;
+        width:150px;
+        height:50px;
+        background-color:#122f35;
+        color:white;
+        padding:5px;
+        font-family:roboto;
+        margin:0 auto;
+        text-align:center;
+    }
+    #button:hover {
+        transition:0.5s;
+        opacity:0.8;
+        cursor:pointer;
+        background-color:grey;
+    }
+    .forms {
+        font-family:roboto;
+        display:block;
+        width:220px;
+        height:500px;
+    }
+    #login{
+        width:220px;
+        float:left;
+        display:block;
+    }
+    #register{
+        width:220px;
+        float:right;
+        display:block;
+    }
+    .forms input[type="text"]{width:200px;height:25px;border:1px solid grey; padding:2px;}
+    .forms input[type="password"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="date"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="email"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="submit"]{margin-top:10px;width:70px; height:auto; padding:10px; background-color:brown; border:none; color:white;}
+    
+    #menu {
+        width:100%;
+        height:50px;
+        background-color:#122f35;
+        opacity:0.9;
+        position:absolute;
+    }
+
+    #menu ol {
+        float:right;
+        margin-right:100px;
+    }
+    #menu ol li {
+        margin-right:25px;
+        float:left;
+        display:block;
+        list-style-type: none;
+        text-decoration:none;
+        color:white;
+        font-family: roboto;
+        padding-top:4px;
+        font-size:14px;
+    }
+    #titel{
+        width:613px;
+        height:auto;
+        margin:0 auto;
+    }
+    h4 {
+        font-family:sans-serif;
+        text-align:center;
+    }
+    .middentext{
+        margin:0 auto;
+        text-align:center;
+        font-family:roboto;
+        font-size:;
+        width:700px;
+        margin-top:100px;
+        border-top:1px solid grey;
+        border-bottom:1px solid grey;
+    }
+    #content {
+        width:1100px;
+        height:auto;
+        text-align:center;
+        margin:0 auto;
+    }
+    .inhoud{
+        margin-top:90px;
+        display:block;
+        float:left;
+        margin-left:25px;
+    }
+
+    #footer{
+        width:100%;
+        height:125px;
+        background-color:#122f35;
+        color:white;
+        display:block;
+        float:left;
+        margin-top:50px;
+    }
+    .inhoudimg {
+        border-radius:360px;
+        
+        box-shadow: 0px 3px 4px 1px black;
+    }
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1099px) {
+     body {
+        margin:0;
+    }
+    #hoi1{
+        display:none;
+        
+    }
+    #hoi{
+        display:none;
+    }
+    h2{
+        text-align: center;
+        font-family: roboto;
+        float:left;
+        font-size:18px;
+    }
+    #header {
+    }
+
+    #bannerimg{
+        width:100%;
+        box-shadow: 0 4px 5px 1px black;
+    }
+    #formomtrek {
+        width:650px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    #button{
+        display:block;
+        float:right;
+        width:130px;
+        height:auto;
+        background-color:#122f35;
+        color:white;
+        padding:2px;
+        font-family:roboto;
+        margin:0 auto;
+        text-align:center;
+        margin-right:35px;
+    }
+    #button:hover {
+        transition:0.5s;
+        opacity:0.8;
+        cursor:pointer;
+        background-color:grey;
+    }
+    .forms {
+        font-family:roboto;
+        display:block;
+        width:220px;
+        height:600px;
+    }
+    #login{
+        width:220px;
+        float:left;
+        display:block;
+    }
+    #register{
+        width:220px;
+        float:right;
+        display:block;
+    }
+    .forms input[type="text"]{width:200px;height:25px;border:1px solid grey; padding:2px;}
+    .forms input[type="password"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="email"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="date"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="submit"]{margin-top:10px;width:70px; height:auto; padding:10px; background-color:brown; border:none; color:white;}
+    
+
+    #menu {
+        width:100%;
+        height:50px;
+        background-color:#122f35;
+        opacity:0.9;
+        position:absolute;
+    }
+
+    #menu ol {
+        float:right;
+        margin-right:100px;
+    }
+    #menu ol li {
+        margin-right:25px;
+        float:left;
+        display:block;
+        list-style-type: none;
+        text-decoration:none;
+        color:white;
+        font-family: sans-serif;
+        padding-top:4px;
+        font-size:14px;
+    }
+    #titel{
+        width:613px;
+        height:auto;
+        margin:0 auto;
+    }
+    h4 {
+        font-family:sans-serif;
+    }
+    .middentext{
+        margin:0 auto;
+        text-align:center;
+        font-family:roboto;
+        font-size:;
+        width:700px;
+        margin-top:50px;
+    }
+    #content {
+        margin-bottom:-150px;
+        margin:0 auto;
+        width:735px;
+        height:600px;
+    }
+    .inhoud{
+        display:block;
+        float:left;
+        margin-left:25px;
+    }
+
+    .inhoudimg {
+        width:75%;
+        box-shadow: 0px 3px 4px 1px black;
+    }
+    #footer{
+        width:100%;
+        height:125px;
+        background-color:#122f35;
+        color:white;
+        display:block;
+        float:left;
+        margin-top:50px;
+    }
+}
+@media only screen and (max-width: 734px) {
+     body {
+        margin:0;
+    }
+    h2{
+        text-align: center;
+        font-family: roboto;
+        float:left;
+        font-size:18px;
+    }
+    #hoi1{
+        display:none;
+        
+    }
+    #hoi{
+        display:none;
+    }
+
+    #header {
+    }
+
+    #bannerimg{
+        width:100%;
+        display:none;
+    }
+#formomtrek {
+        width:200px;
+        height: auto;
+        margin: 0 auto;
+    }
+     #formomtrek {
+        width:220px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    #button{
+        display:block;
+        float:right;
+        width:100%;
+        height:40px;
+        background-color:#122f35;
+        color:white;
+        padding:3px;
+        font-family:roboto;
+        margin:0 auto;
+        text-align:center;
+    }
+    #button:hover {
+        transition:0.5s;
+        opacity:0.8;
+        cursor:pointer;
+    }
+    .forms {
+        font-family:roboto;
+        display:block;
+        width:220px;
+        height:550px;
+    }
+    #login{
+        width:220px;
+        float:left;
+        display:block;
+    }
+    #register{
+        width:220px;
+        float:right;
+        display:block;
+    }
+    .forms input[type="text"]{width:200px;height:25px;border:1px solid grey; padding:2px;}
+    .forms input[type="password"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="email"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="date"]{width:200px;height:25px;border:1px solid grey;padding:2px;}
+    .forms input[type="submit"]{margin-top:10px;width:70px; height:auto; padding:10px; background-color:brown; border:none; color:white;}
+    
+    #menu {
+        width:100%;
+        height:50px;
+        background-color:#122f35;
+        opacity:0.9;
+        position:relative;
+    }
+
+    #menu ol {
+        float:left;
+    }
+    #menu ol li {
+        margin-right:25px;
+        float:left;
+        display:block;
+        list-style-type: none;
+        text-decoration:none;
+        color:white;
+        font-family: sans-serif;
+        padding-top:4px;
+        font-size:14px;
+    }
+    #titel{
+        width:613px;
+        height:auto;
+        margin:0 auto;
+    }
+    h4 {
+        font-family:sans-serif;
+    }
+     .middentext{
+        margin:0 auto;
+        text-align:center;
+        font-family:roboto;
+        font-size:;
+        width:250px;
+        margin-top:75px;
+         border-top:solid black 1px;
+         border-bottom:solid black 1px;
+    }
+    #content {
+        margin-top:75px;
+        margin:0 auto;
+        width:250px;
+        height:auto;
+    }
+    .inhoud{
+        display:block;
+        float:left;
+    }
+
+    .inhoudimg {
+        width:250px;
+        
+        box-shadow: 0px 3px 4px 1px black;
+    }
+    #footer{
+        width:100%;
+        height:125px;
+        background-color:#122f35;
+        color:white;
+        display:block;
+        float:left;
+        margin-top:50px;
+    }
+}
+#container{
+    width:800px;
+    height:auto;
+}
+.forms{
+    width:400px;
+    height: auto;
+    display:block;
+    float:left;
+}
